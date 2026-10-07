@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-<title>Syed Nayeem | Senior Technical Recruiter</title>
+<title>Syed Nayeem Portfolio</title>
  
 <style>
  
@@ -19,22 +19,19 @@ scroll-behavior:smooth;
 }
  
 body{
-font-family:Segoe UI,sans-serif;
-background:#0b1220;
+font-family:Segoe UI, sans-serif;
+background:#0f172a;
 color:white;
 }
  
-/* Navbar */
- 
 .navbar{
 position:fixed;
-top:20px;
+top:15px;
 left:50%;
 transform:translateX(-50%);
-background:rgba(16,25,40,.9);
+background:#111827;
 padding:12px 24px;
-border-radius:50px;
-backdrop-filter:blur(12px);
+border-radius:40px;
 display:flex;
 gap:20px;
 z-index:1000;
@@ -47,10 +44,8 @@ font-weight:600;
 }
  
 .navbar a:hover{
-color:#4fd1c5;
+color:#22d3ee;
 }
- 
-/* Hero */
  
 .hero{
 min-height:100vh;
@@ -59,7 +54,7 @@ flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-padding:40px;
+padding:20px;
 }
  
 .profile{
@@ -67,37 +62,46 @@ width:180px;
 height:180px;
 border-radius:50%;
 object-fit:cover;
-border:4px solid #4fd1c5;
+border:4px solid #22d3ee;
 margin-bottom:20px;
 }
  
 .hero h1{
 font-size:3rem;
-margin-bottom:10px;
 }
  
 .hero h2{
-color:#4fd1c5;
-}
- 
-.buttons{
-display:flex;
-gap:12px;
-flex-wrap:wrap;
-margin-top:25px;
+color:#22d3ee;
+margin:10px 0;
 }
  
 .btn{
-background:#4fd1c5;
+display:inline-block;
+background:#22d3ee;
 color:#000;
 padding:12px 20px;
-border-radius:10px;
+margin:10px;
 text-decoration:none;
-font-weight:600;
+border-radius:10px;
+font-weight:bold;
 }
  
-.btn:hover{
-opacity:.9;
+.section{
+max-width:1000px;
+margin:auto;
+padding:80px 20px;
+}
+ 
+.section h2{
+margin-bottom:20px;
+color:#22d3ee;
+}
+ 
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
 }
  
 @media(max-width:768px){
@@ -109,12 +113,12 @@ justify-content:center;
 }
  
 .hero h1{
-font-size:2.2rem;
+font-size:2rem;
 }
  
 .profile{
-width:130px;
-height:130px;
+width:140px;
+height:140px;
 }
  
 }
@@ -127,14 +131,14 @@ height:130px;
 <nav class="navbar">
 #homeHome</a>
 #aboutAbout</a>
-#experienceExperience</a>
+<a hrefenceExperience</a>
 #skillsSkills</a>
-#contactContact</a>
+<a hreftContact</a>
 </nav>
  
 <section id="home" class="hero">
  
-<img src="profile.jpg" alt="Profile" class="profile">
+<img src="profile.jpg" class="profile" alt="Profile">
  
 <h1>Syed Nayeem</h1>
  
@@ -142,24 +146,81 @@ height:130px;
  
 <p>US IT Talent Acquisition Specialist</p>
  
-<div class="buttons">
+<div>
  
 <a href="mailto:syednayeem.work@gmail.com" class="btn">
-📧 Email
+Email
 </a>
  
 <a href="https://www.linkedin.com/in/syed-nayeem/" target="_blank" class="btn">
-🔗 LinkedIn
+LinkedIn
 </a>
  
 </div>
  
 </section>
  
-<section id="about"></section>
-<section id="experience"></section>
-<section id="skills"></section>
-<section id="contact"></section>
+<section id="about" class="section">
+ 
+<h2>About Me</h2>
+ 
+<div class="card">
+ 
+Senior Technical Recruiter with 5+ years of experience in U.S. IT Staffing and Talent Acquisition supporting Fortune 500 organizations, Direct Clients, MSP/VMS programs, Tier‑1 Vendors, Prime Vendors, and Implementation Partners.
+ 
+</div>
+ 
+</section>
+ 
+<section id="experience" class="section">
+ 
+<h2>Experience</h2>
+ 
+<div class="card">
+ 
+<h3>Siri InfoSolutions</h3>
+ 
+<p>Senior Technical Recruiter | Mar 2025 – Present</p>
+ 
+</div>
+ 
+<div class="card">
+ 
+<h3>USM Business Systems</h3>
+ 
+<p>Senior Technical Recruiter | May 2022 – Mar 2025</p>
+ 
+</div>
+ 
+</section>
+ 
+<section id="skills" class="section">
+ 
+<h2>Skills</h2>
+ 
+<div class="card">
+ 
+Technical Recruiting • Talent Acquisition • LinkedIn Recruiter • CEIPAL • Microsoft Copilot • ChatGPT • AI Recruiting
+ 
+</div>
+ 
+</section>
+ 
+<section id="contact" class="section">
+ 
+<h2>Let's Connect</h2>
+ 
+<div class="card">
+ 
+Connecting the right talent with the right opportunities through smart sourcing, talent discovery, and AI-powered recruiting.
+ 
+<br><br>
+ 
+Always learning. Always sourcing. Always finding smarter ways to recruit with AI.
+ 
+</div>
+ 
+</section>
  
 </body>
 </html>
